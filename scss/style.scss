@@ -1,0 +1,15 @@
+@import 'colors/colors';
+@import 'typography/type';
+@import 'mixins/gradient';
+
+body{
+ background-color: lighten(desaturate(adjust_hue(#018899, 110), 66), 27);
+}
+
+div.wrapper{
+ background-color: $content-bg-color;
+}
+
+div.content{
+ @include linear-gradient(white, black);
+}

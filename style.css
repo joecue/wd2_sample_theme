@@ -1,0 +1,27 @@
+/*!
+Theme Name: twentyfifteen_child
+  Theme URI:    http://www.joequerin.com 
+ Description:  Joe Querin Personal Portfolio Theme 
+ Author: Joe Querin 
+ Author URI: http://www.joequerin.com 
+ Template: twentyfifteen_child 
+ Version:1.0.0 
+ License: GNU General Public License v2 or later 
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html 
+ Text Domain:  twentyfifteen_child */ 
+ h1 {
+  font-family: "Droid"; }
+  h1 h2 {
+    font-family: "Serif";
+    font-weight: 700; }
+
+body {
+  background-color: #b26eb6; }
+
+div.wrapper {
+  background-color: #000; }
+
+div.content {
+  background: black;
+  background: -webkit-linear-gradient(legacy-direction(white), black);
+  background: linear-gradient(white, black); }

@@ -1,0 +1,9 @@
+$main-font: 'Droid';
+$second-font: 'Serif';
+h1{
+ font-family: $main-font;
+ h2{
+  font-family: $second-font;
+  font-weight: 700;
+ } 
+}
